@@ -1,0 +1,29 @@
+.footer {
+    background: #f7f7f7;
+    padding: 3rem 2rem;
+}
+
+.footer-container {
+    padding: 1.5rem .75rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-description {
+    font-size: 1.125rem;
+    color: #000;
+}
+
+.footer-list {
+    font-size: 1.25rem;
+    line-height: 1.33;
+
+}
+
+.footer-copy {
+    grid-column: 1/-1;
+    justify-self: center;
+}
